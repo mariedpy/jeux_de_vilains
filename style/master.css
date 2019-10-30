@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Carter+One&display=swap');
+
 body{
-  background: red;
+  background: #4AD2FF;
+  padding: 0;
+}
+
+header{
+  height: 96px;
+  width: 100%;
+  background-color: blue;
+margin: auto;
+}
+
+.boite_dial{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 1072px;
+  height: 221px;
+  padding: 16px;
+  top: 624px;
+  background-color: #D28B3E;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dialogue {
+  font-family: 'Carter One', cursive;
+  font-size: 20px;
+  width: 768px;
+  margin: auto;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Bungee', cursive;
+}
+
+h3{
+  padding: 0;
+  font-size: 16px;
+}
+
+.characters{
+  width: 376px;
+  position: absolute;
+  left: 164px;
+  top: 492px;
 }
