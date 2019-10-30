@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee|Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
 
 body{
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#88d3ce+0,6e45e2+100 */
@@ -21,6 +23,57 @@ top: 0;
 padding: 16px;
 }
 
+p {
+  padding-top: 64px;
+  font-family: 'Acme', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.6em;
+  margin: auto;
+  text-align: center;
+}
+
+ .animate {
+padding: 0;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+p span{
+  font-size: 32px;
+}
+
+.nom_jeu{
+  position: absolute;
+  width: 478px;
+  height: 88px;
+  background-color: #D28B3E;
+  top: 172px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border: 1px solid white;
+  z-index: 1;
+
+}
+
 .boite_dial{
   position: absolute;
   left: 0;
@@ -34,11 +87,27 @@ padding: 16px;
   margin-right: auto;
 }
 
+.boite_tuto{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 1072px;
+  height: 640px;
+  padding: 16px;
+  top: 188px;
+  background-color: #D28B3E;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 .dialogue {
-  font-family: 'Carter One', cursive;
-  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  font-size: 24px;
   width: 768px;
   margin: auto;
+  padding: 0;
 }
 
 h1,h2,h3,h4{
@@ -61,7 +130,7 @@ animation-iteration-count: infinite;
 
 }
 
-.btn_suivant{
+.suivant{
   position: absolute;
   width: 64px;
   height: 64px;
@@ -69,6 +138,37 @@ animation-iteration-count: infinite;
   right: 16px;
   text-align: center;
   cursor: pointer;
+}
+
+.btn, .retour, .continuer{
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 64px;
+  padding: 16px;
+  background-color: red;
+  right: 16px;
+  top: 160px;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Bungee', cursive;
+  color: white;
+  box-shadow: inset 2px 2px 0 #fff;
+  border: 1px solid black;
+}
+
+.continuer{
+  top: 880px;
+  right: 0;
+  left: 0;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.retour{
+  left: 142px;
+  width: 120px;
 }
 
 svg{
@@ -90,4 +190,17 @@ svg{
     top: 492px;
   }
 
+}
+
+
+.bloc_map{
+width: 1056px;
+height: 576px;
+background-color: #D28B3E;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+top: 192px;
 }
