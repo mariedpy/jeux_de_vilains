@@ -52,6 +52,21 @@ animation-iteration-count: infinite;
 
 }
 
+.btn_suivant{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background-color: red;
+  right: 16px;
+  text-align: center;
+}
+
+svg{
+  display: block;
+  margin: auto;
+  margin-top: 16px;
+}
+
 @keyframes mouvement {
   0% {
     top: 492px;
