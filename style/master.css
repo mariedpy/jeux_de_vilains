@@ -3,24 +3,31 @@
 
 
 body{
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#88d3ce+0,6e45e2+100 */
-  background: #88d3ce; /* Old browsers */
-  background-size: cover;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-repeat: no-repeat;
+  background-color: #cccccc;
+  /*background-repeat: no-repeat;
   background: linear-gradient(-45deg,  #4481eb, #04befe); /* FF3.6-15 */
+  background-image: url("/Users/mariedupuy/Documents/ECV/5eme_annee/Web Design/Jeux de Vilains/jeux_de_vilains/jeux_de_vilains/img/decors_bg_purple.png");
+  background-repeat: no-repeat;
+  background-position:right top;
+  background-size: cover;
+  background-attachment: fixed;
 
 }
 
 header{
   height: 80px;
   width: 100%;
-  background-color: #D28B3E;
 position: absolute;
 left: 0;
 top: 0;
 padding: 16px;
+}
+
+header img{
+  width: 120px;
+  height: auto;
 }
 
 p {
@@ -38,7 +45,7 @@ padding: 0;
   overflow: hidden;
   border-right: .15em solid orange;
   white-space: nowrap;
-  animation: typing 3.5s steps(30, end),
+  animation: typing 4.5s steps(30, end),
   blink-caret .5s step-end infinite;
 
 }
@@ -62,7 +69,8 @@ p span{
   position: absolute;
   width: 478px;
   height: 88px;
-  background-color: #D28B3E;
+  background-color: #f1646a;
+  color: #f7b0b3;
   top: 172px;
   text-align: center;
   margin-left: auto;
@@ -82,9 +90,10 @@ p span{
   height: 221px;
   padding: 16px;
   top: 624px;
-  background-color: #D28B3E;
+  background-color: #7ac9a7;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: inset 2px 2px 0 #fff;
 }
 
 .boite_tuto{
@@ -95,7 +104,7 @@ p span{
   height: 640px;
   padding: 16px;
   top: 188px;
-  background-color: #D28B3E;
+  background-color: #f7b0b2;
   margin-left: auto;
   margin-right: auto;
 }
@@ -196,7 +205,7 @@ svg{
 .bloc_map{
 width: 1056px;
 height: 576px;
-background-color: #D28B3E;
+background-color: #f7b0b3;
 position: absolute;
 margin-left: auto;
 margin-right: auto;
