@@ -8,7 +8,7 @@ body{
   background-color: #cccccc;
   /*background-repeat: no-repeat;
   background: linear-gradient(-45deg,  #4481eb, #04befe); /* FF3.6-15 */
-  background-image: url("/Users/mariedupuy/Documents/ECV/5eme_annee/Web Design/Jeux de Vilains/jeux_de_vilains/jeux_de_vilains/img/decors_bg_purple.png");
+  background-image: url("../img/decors_bg_purple.png");
   background-repeat: no-repeat;
   background-position:right top;
   background-size: cover;
@@ -129,10 +129,10 @@ h3{
 }
 
 .characters{
-  width: 376px;
+  width: 600px;
   position: absolute;
   left: 164px;
-  top: 492px;
+  top: 200px;
   animation-name: mouvement;
   animation-duration: 1s;
 animation-iteration-count: infinite;
@@ -188,15 +188,15 @@ svg{
 
 @keyframes mouvement {
   0% {
-    top: 492px;
+    top: 200px;
   }
 
   50% {
-  top: 400px;
+  top: 150px;
   }
 
   100% {
-    top: 492px;
+    top: 200px;
   }
 
 }
