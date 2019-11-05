@@ -41,6 +41,10 @@ p {
   text-align: center;
 }
 
+.boite_tuto p{
+  width: 40%;
+}
+
  .animate {
 padding: 0;
   overflow: hidden;
