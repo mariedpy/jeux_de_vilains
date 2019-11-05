@@ -8,7 +8,7 @@ body{
   background-color: #cccccc;
   /*background-repeat: no-repeat;
   background: linear-gradient(-45deg,  #4481eb, #04befe); /* FF3.6-15 */
-  background-image: url("../img/decors_V2_red.png"), url("../img/decors_bg_purple.png");
+  background-image: url("../img/background_yellow.png");
 
   background-repeat: no-repeat;
   background-position:right top;
@@ -41,6 +41,10 @@ p {
   text-align: center;
 }
 
+.boite_tuto p{
+  width: 40%;
+}
+
  .animate {
 padding: 0;
   overflow: hidden;
@@ -70,8 +74,8 @@ p span{
   position: absolute;
   width: 478px;
   height: 88px;
-  background-color: #f1646a;
-  color: #f7b0b3;
+  background-color: #F4772B;
+  color: #ffffff;
   top: 172px;
   text-align: center;
   margin-left: auto;
@@ -91,7 +95,7 @@ p span{
   height: 221px;
   padding: 16px;
   top: 624px;
-  background-color: #7ac9a7;
+  background-color: #FFE667;
   margin-left: auto;
   margin-right: auto;
   box-shadow: inset 2px 2px 0 #fff;
@@ -105,7 +109,8 @@ p span{
   height: 640px;
   padding: 16px;
   top: 188px;
-  background-color: #f7b0b2;
+  background-color: #73719C;
+  color: white;
   margin-left: auto;
   margin-right: auto;
 }
@@ -129,7 +134,7 @@ h3{
   font-size: 16px;
 }
 
-.characters{
+.characters, .characters_one, .characters_two{
   width: 800px;
   position: absolute;
   left: 164px;
@@ -139,6 +144,16 @@ h3{
 animation-iteration-count: infinite;
 animation-timing-function: linear;
 
+}
+
+.characters_one{
+  width: 500px;
+  left: 100px;
+}
+
+.characters_two{
+  width: 600px;
+  left: 1200px;
 }
 
 .suivant{
@@ -157,7 +172,7 @@ animation-timing-function: linear;
   height: auto;
   min-width: 64px;
   padding: 16px;
-  background-color: #F47171;
+  background-color: #73719C;
   right: 16px;
   top: 160px;
   text-align: center;
