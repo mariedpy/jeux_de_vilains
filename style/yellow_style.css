@@ -264,3 +264,22 @@ top: 192px;
   top: 65%;
   cursor: pointer;
 }
+
+@keyframes wobble {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+.wobble {
+  animation: wobble .3s infinite;
+}
