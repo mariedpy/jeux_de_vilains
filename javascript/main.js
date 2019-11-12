@@ -11,6 +11,6 @@ var countdown = setInterval(function(){
   } else {
     clearInterval(countdown);
     history.pushState({}, "", "intro_jeu.html");
-    window.reload();
+    document.location.reload();
   }
 }, 1000);
