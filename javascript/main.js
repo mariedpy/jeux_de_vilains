@@ -10,7 +10,6 @@ var countdown = setInterval(function(){
     counterElement.textContent = counter;
   } else {
     clearInterval(countdown);
-    history.pushState({}, "", "intro_jeu.html");
-    document.location.reload();
+    window.location = "https://mariedpy.github.io/jeux_de_vilains/intro_jeu.html";
   }
 }, 1000);
