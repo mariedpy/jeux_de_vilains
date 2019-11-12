@@ -14,7 +14,7 @@
   </header>
 
   <div class="nom_jeu">
-    <h2>CIRCLE GAME</h2>
+    <h2>AS-TU BIEN COMPRIS ?</h2>
 
   </div>
   <a href="intro_jeu.html">
@@ -27,12 +27,14 @@
 
 
 
-    <p>
+    <p></p>
 
 
 
 <p class="animate"> <span class="animate">   Si oui, clique vite dans le cercle avant de te faire avoir !</span> </p>
-     <br><br><br><br> </p>
+     <br><br><br><br>
+
+     <p id="counter-element-js"></p>
 
      <img class ="characters, hand" src="img/circle_hand.png" alt="jean-pierre">
 
@@ -43,28 +45,8 @@
 
   </div>
 
-  
 
+<script src="./javascript/main.js"></script>
 </body>
-<script type="text/javascript">
-
-
-function endCountdown() {
-  // logic to finish the countdown here
-}
-
-function handleTimer() {
-  if(count === 0) {
-    clearInterval(timer);
-    endCountdown();
-  } else {
-    $('#count_num').html(count);
-    count--;
-  }
-}
-
-var count = 3;
-var timer = setInterval(function() { handleTimer(count); }, 1000);
-</script>
 
 </html>
