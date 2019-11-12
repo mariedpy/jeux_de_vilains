@@ -10,6 +10,7 @@ var countdown = setInterval(function(){
     counterElement.textContent = counter;
   } else {
     clearInterval(countdown);
-    history.pushState({}, "", "intro_jeu.html")
+    history.pushState({}, "", "intro_jeu.html");
+    window.reload();
   }
 }, 1000);
